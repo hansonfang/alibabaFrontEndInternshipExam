@@ -98,9 +98,11 @@ getIntersection(['x', 7], [4, 9]); // return null
 getIntersection([1, 2]); // return [ 1, 2 ]
 getIntersection([1, 2], [2, 3]); // return [ 2, 2 ]
 ```
->[函数实现](https://github.com/hansonfang/alibabaFrontEndInternshipExam/getIntersection.js)
+>[函数实现](https://github.com/hansonfang/alibabaFrontEndInternshipExam/blob/master/getIntersection.js)
+***
 
 
+ 
 ### 3.请使用 JavaScript 编写一个树的深度优先遍历函数（节点最深的最先访问到，依次类推），满足以下测试用例：
 
 
@@ -150,3 +152,4 @@ treeMap(tree, node => {
 console.log(treeMap(null)) // 输出null
 console.log(treeMap(tree, true/*不是函数*/)) //输出tree
 ```
+> [函数实现](https://github.com/hansonfang/alibabaFrontEndInternshipExam/blob/master/treeMap.js)
